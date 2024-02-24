@@ -1,59 +1,81 @@
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-    nav{
-       width: 100%; 
+    nav {
+        width: 100%;
     }
 
-    .navSuperior{
-        background-color: #172746;
+    .navSuperior {
+        background-color: #0d2a64;
         width: 100%;
         height: 120px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .imgLogo{
+
+
+    .imgLogo {
         height: 125px;
+        margin-left: 20px;
+        cursor: pointer;
     }
 
-    .buttonsNav{
-        width: 30%;
+    .contentNav {
+        width: 40%;
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
 
-    .buttonsNav button{
+    .contentNav a {
         justify-content: space-between;
-        background-color:#4AB7E8;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
         cursor: pointer;
-        width: 140px;   
+        color: rgb(221, 218, 218);
+        font-size: 30px;
+    }
+
+    .contentNav a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .navButton {
+        width: 200px;
         height: 50px;
-        border: 2px solid rgb(0, 3, 51);
+        border: 1px solid rgb(0, 0, 0);
         border-radius: 10px;
-        font-size: 22px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #74cbf3;
+        color: rgba(0, 0, 0, 0.778);
+        font-size: 30px;
     }
 
-    .navInferior{
+    .navButton:hover {
+        border: 1px solid rgb(255, 255, 255);
+        background-color: #57a3c9;
+        color: rgb(0, 0, 0);
+    }
+
+    .navInferior {
         width: 100%;
- 
+
     }
 
-    .containerImagens{
+    .containerImagens {
         width: 100%;
         display: flex;
     }
 
-    .containerImagens button{
+    .containerImagens button {
         border: none;
-        width: 100%;
+        cursor: pointer;
     }
 
-    .imgNav{
+    .imgNav {
         width: 100%;
         height: 600px;
     }
