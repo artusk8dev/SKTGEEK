@@ -1,53 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
     <title>SKTGEEK</title>
 
     <!-- quanto mais meta tags melhor -->
 
-    <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Conheça ">
-    <meta name="keywords" content="Clash Of Clans, ">
+    <link rel="stylesheet"
+          href="style.css">
+    <meta name="description"
+          content="Conheça ">
+    <meta name="keywords"
+          content="Clash Of Clans, ">
+          <script src="script.js"></script>
 </head>
+
 <body>
     <nav> <!--criando navbar para a navegação do usuario -->
 
         <div class="navSuperior"> <!--criando divisão dos conteudo da navbar, a superior e inferior-->
-            <div class="imgContainer">
-                <img class="imgLogo" src="img/logo-removebg-preview.png" alt="">
+
+            <!-- img principal levando para o topo da pag-->
+            <div id="topo">
+                <a href="#topo"><img class="imgLogo"
+                         src="img/logo-removebg-preview.png"
+                         alt=""></a>
             </div>
 
-            <div class="buttonsNav">
-                    <button>SOBRE</button>
-                    <button>AVALIAÇÃO</button>
-                    <button>CONTATO</button>
-            </div>      
+            <div class="contentNav"> <!-- conteudo da navbar-->
+                <a href="">SOBRE</a>
+                <a href="">CONTATO</a>
+                <a href=""> <button class="navButton"> AVALIAÇÃO</button></a>
+            </div>
         </div>
         <div class="navInferior"> <!-- nav aonde o usuario vai selecionar qual o conteudo mostrando-->
-            <div class="containerImagens"> 
-                <button> <!--botões para selecionar o conteudo respectivamente de cada jogo-->
-                    <img class="imgNav" src="img/bs.png" alt="">
-                </button>    
+            <section class="containerImagens">
+                <button onclick="click1()"> <!--botões para selecionar o conteudo respectivamente de cada jogo-->
+                    <img  class="imgNav"
+                         src="img/coc.png"
+                         alt="">
+                </button>
                 <button>
-                    <img class="imgNav" src="img/cc.png" alt="">
-                </button>    
+                    <img class="imgNav"
+                         src="img/cc.png"
+                         alt="">
+                </button>
                 <button>
-                    <img class="imgNav" src="img/pubg.png" alt="">
-                </button>    
+                    <img class="imgNav"
+                         src="img/pubg.png"
+                         alt="">
+                </button>
                 <button>
-                    <img class="imgNav" src="img/cr.png" alt="">
-                </button>    
+                    <img class="imgNav"
+                         src="img/cr.png"
+                         alt="">
+                </button>
                 <button>
-                    <img class="imgNav" src="img/bs.png" alt="">
-                </button> 
+                    <img class="imgNav"
+                         src="img/bs.png"
+                         alt="">
+                </button>
                 <button>
-                    <img class="imgNav" src="img/cod.png" alt="">
-                </button>       
-            </div>
+                    <img class="imgNav"
+                         src="img/cod.png"
+                         alt="">
+                </button>
+            </section>
         </div>
     </nav>
-
 </body>
+
 </html>
