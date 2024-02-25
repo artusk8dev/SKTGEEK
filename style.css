@@ -4,6 +4,9 @@
         box-sizing: border-box;
     }
 
+
+    /* styles da navbar*/
+
     nav {
         width: 100%;
     }
@@ -16,7 +19,6 @@
         justify-content: space-between;
         align-items: center;
     }
-
 
     .imgLogo {
         height: 125px;
@@ -42,7 +44,7 @@
         cursor: pointer;
         color: rgba(237, 234, 234, 0.904);
         font-size: 30px;
-        
+
     }
 
     .contentNav a:hover {
@@ -56,28 +58,36 @@
 
     .containerImagens {
         width: 100%;
+
+    }
+
+    .containerImagens ul{
         display: flex;
-        justify-content: space-between;
-    }
-
-    .containerImagens button {
-        border: none;
-        cursor: pointer;
-        width: 277px;
-        border: 1px solid black;
-        border-bottom:none ;
-        transition: 500ms;
-    }
-
-    .containerImagens button:hover{
         width: 100%;
     }
 
-    .imgNav{
+    .containerImagens li{
+        width: 250px;
+        list-style: none;
+        border: 1px solid black;
+        height: 552px;
+        transition: 800ms;
+        flex-grow: 1;
+    }
+
+    .containerImagens a{
+        height: 100%;
+    }
+
+    .containerImagens li:hover {
+        width: 100%;
+        transition: 1400ms;
+    }
+
+    .imgNav {
         height: 550px;
         object-fit: cover;
         width: 100%;
-        object-position: center;   
+        object-position: center;
     }
-
-    
+ /* fim do style da navbar*/
