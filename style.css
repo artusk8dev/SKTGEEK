@@ -25,10 +25,14 @@
     }
 
     .contentNav {
-        width: 40%;
+        height: 60px;
+        width: 700px;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-right: 25px;
+        background-color: #0356fd09;
+        border-radius: 20px;
     }
 
     .contentNav a {
@@ -36,28 +40,13 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-decoration: none;
         cursor: pointer;
-        color: rgb(221, 218, 218);
+        color: rgba(237, 234, 234, 0.904);
         font-size: 30px;
+        
     }
 
     .contentNav a:hover {
         color: rgb(255, 255, 255);
-    }
-
-    .navButton {
-        width: 200px;
-        height: 50px;
-        border: 1px solid rgb(0, 0, 0);
-        border-radius: 10px;
-        background-color: #74cbf3;
-        color: rgba(0, 0, 0, 0.778);
-        font-size: 30px;
-    }
-
-    .navButton:hover {
-        border: 1px solid rgb(255, 255, 255);
-        background-color: #57a3c9;
-        color: rgb(0, 0, 0);
     }
 
     .navInferior {
@@ -68,14 +57,27 @@
     .containerImagens {
         width: 100%;
         display: flex;
+        justify-content: space-between;
     }
 
     .containerImagens button {
         border: none;
         cursor: pointer;
+        width: 277px;
+        border: 1px solid black;
+        border-bottom:none ;
+        transition: 500ms;
     }
 
-    .imgNav {
+    .containerImagens button:hover{
         width: 100%;
-        height: 600px;
     }
+
+    .imgNav{
+        height: 550px;
+        object-fit: cover;
+        width: 100%;
+        object-position: center;   
+    }
+
+    
