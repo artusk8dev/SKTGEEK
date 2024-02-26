@@ -9,7 +9,6 @@ conteudoJogo.forEach(item =>{
 
 /*função que pega o atributo e retorna  */
 function scrollContent(event){
-
     const elemento = event.currentTarget;
     console.log(elemento)
 
@@ -19,9 +18,13 @@ function scrollContent(event){
 
         const para = document.querySelector(id).offsetTop;
 
-        console.log(para)
+        let paraTopo = para;
+        window.scrollTo({
+                            top: paraTopo,
+                            behavior: 'smooth'
+                        });
+                        console.log(paraTopo)
 
-        para.scrollIntoView({behavior: "smooth"});
     };
 
 
