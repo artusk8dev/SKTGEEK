@@ -159,8 +159,31 @@ html {
     background-color: #f0f1f4;
     width: 100%;
     height: 400px;
+    display: flex;
+    justify-content: space-between;
 }
-
+.containerContact{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerContact ul{
+    list-style: none;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.containerContact li{
+    padding: 40px 0 0 20px;
+    font-size: 35px;
+    height: 33%;
+}
+.containerEmail{
+    border: 1px solid red;
+    width: 40%;
+}
 
 .itensFooter{
     background-color: #0d2a64;
