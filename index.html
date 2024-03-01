@@ -88,17 +88,11 @@
             </div>
         </nav> <!--fim do conteudo da navbar-->
     </header>
-    <div class="topButton"> <!--botão que sobe para o topo-->
-        <a href="#topo">
-            <img src="img/botao-de-seta-para-cima.png">
-        </a>
-    </div>
-
 
     <main id="main"> <!-- començando conteúdo da main -->
-        <section class="containerContent" id="coc" data-aos="fade-right">
+        <section class="containerContent" id="coc" >
             <!-- criando uma section para cada jogo com id referente para linkar-->
-            <div class="backG">
+            <div class="backG" data-aos="flip-down">
                 <div class="fotoJogos"> <!-- container para a foto do jogo referente-->
                     <img src="img/cocLogo.png" alt="Imagem da logo do jogo CLASH OF CLANS">
                 </div>
@@ -107,8 +101,8 @@
                 </div>
             </div>
         </section>
-        <section class="containerContent" id="cc" data-aos="fade-left">
-            <div class="backG">
+        <section class="containerContent" id="cc" >
+            <div class="backG" data-aos="slide-left">
                 <div class="infoJogos">
                     <div class="drescricaoGame">
 
@@ -118,8 +112,8 @@
                     <img src="img/ccLogo.png" alt="Imagem da logo do jogo CANDY CRUSH">
                 </div>
         </section>
-        <section class="containerContent" id="pubg" data-aos="fade-right">
-            <div class="backG">
+        <section class="containerContent" id="pubg">
+            <div class="backG"  data-aos="slide-right">
                 <div class="fotoJogos">
                     <img src="img/pubgLogo.png" alt="Imagem da logo do jogo PLAYERUNKNOWN'S BATTLEGROUNDS MOBILE ">
                 </div>
@@ -128,8 +122,8 @@
                 </div>
             </div>
         </section>
-        <section class="containerContent" id="cr" data-aos="fade-left">
-            <div class="backG">
+        <section class="containerContent" id="cr" >
+            <div class="backG" data-aos="slide-left">
                 <div class="infoJogos">
 
                 </div>
@@ -138,9 +132,9 @@
                 </div>
             </div>
         </section>
-        <section class="containerContent" id="bs" data-aos="fade-right">
+        <section class="containerContent" id="bs" >
             <div class="backG">
-                <div class="fotoJogos">
+                <div class="fotoJogos" data-aos="slide-right">
                     <img src="img/bsLogo.png" alt="Imagem da logo do jogo BRAWL STARS">
                 </div>
                 <div class="infoJogos">
@@ -148,8 +142,8 @@
                 </div>
             </div>
         </section>
-        <section class="containerContent" id="cod" data-aos="fade-left">
-            <div class="backG">
+        <section class="containerContent" id="cod" >
+            <div class="backG" data-aos="slide-left">
                 <div class="infoJogos">
 
                 </div>
@@ -158,7 +152,11 @@
                 </div>
             </div>
         </section>
-
+        <div class="topButton"> <!--botão que sobe para o topo-->
+            <a href="#topo">
+                <img src="img/botao-de-seta-para-cima.png">
+            </a>
+        </div>
     </main> <!--fim do conteúdo dos jogos-->
     <article class="avaliador">
         <div class="containerText">
@@ -224,6 +222,9 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+      AOS.init({
+        duration: 700,
+      })
     </script>
     <script src="script.js"></script>
 </body>
