@@ -1,7 +1,8 @@
-html {
+html{
+    overflow-x: hidden;
     scroll-behavior: smooth;
-    
   }
+
   * {
         margin: 0;
         padding: 0;
@@ -91,6 +92,7 @@ html {
         object-fit: cover;
         width: 100%;
         object-position: center;
+        
     }
  /* fim do style da navbar*/
 
@@ -134,12 +136,6 @@ html {
  /* finalizando css main*/
 
  .topButton{
-    display: flex;
-    width: 440px;
-    height: 90px;
-    background-image: url(img/botao-de-seta-para-cima.png);
-    position: fixed;
-    margin: 10px 0px 0px 8px;
     opacity: 82%;
     left: 95%;
     transition: 500ms;
@@ -149,8 +145,8 @@ html {
     opacity: 100%;
 }
 .topButton img{   
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
 }
 
 .contato{
@@ -159,6 +155,7 @@ html {
     height: 400px;
     display: flex;
     justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif
 }
 .containerContact{
     width: 50%;
@@ -179,8 +176,23 @@ html {
     height: 33%;
 }
 .containerEmail{
-    border: 1px solid red;
     width: 40%;
+}
+
+.titleForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.titleForm h2{
+    font-size: 35px ;
+}
+
+.containerInputs{
+    border: 1px solid black;
+    height: 250px;
+    width: 500px;
 }
 
 .itensFooter{
