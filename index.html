@@ -12,6 +12,7 @@
     <meta name="description" content="Conheça ">
     <meta name="keywords" content="Clash Of Clans, ">
     <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -32,6 +33,16 @@
                 </div>
             </div>
             <div class="navInferior"> <!-- nav aonde o usuario vai selecionar qual o conteudo mostrando-->
+
+              <!--data-aos="fade-up"
+     data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"-->
+
 
                 <section class="containerImagens">
                     <ul>
@@ -85,7 +96,7 @@
 
 
     <main id="main"> <!-- començando conteúdo da main -->
-        <section class="containerContent" id="coc">
+        <section class="containerContent" id="coc" data-aos="fade-right">
             <!-- criando uma section para cada jogo com id referente para linkar-->
             <div class="backG">
                 <div class="fotoJogos"> <!-- container para a foto do jogo referente-->
@@ -96,22 +107,18 @@
                 </div>
             </div>
         </section>
-        <section class="containerContent" id="cc">
-            <div class="backG" id="reverse">
-                <div class="fotoJogos">
-                    <img src="img/ccLogo.png" alt="Imagem da logo do jogo CANDY CRUSH">
-                </div>
+        <section class="containerContent" id="cc" data-aos="fade-left">
+            <div class="backG">
                 <div class="infoJogos">
                     <div class="drescricaoGame">
 
-                    </div>
-                    <div class="videoGame">
-                        <video src=""> </video>
-                    </div>
+                    </div>   
+                </div>     
+                <div class="fotoJogos">
+                    <img src="img/ccLogo.png" alt="Imagem da logo do jogo CANDY CRUSH">
                 </div>
-            </div>
         </section>
-        <section class="containerContent" id="pubg">
+        <section class="containerContent" id="pubg" data-aos="fade-right">
             <div class="backG">
                 <div class="fotoJogos">
                     <img src="img/pubgLogo.png" alt="Imagem da logo do jogo PLAYERUNKNOWN'S BATTLEGROUNDS MOBILE ">
@@ -121,17 +128,17 @@
                 </div>
             </div>
         </section>
-        <section class="containerContent" id="cr">
-            <div class="backG" id="reverse">
-                <div class="fotoJogos">
-                    <img src="img/crLOGO.png" alt="Imagem da logo do jogo CLASH ROYALE">
-                </div>
+        <section class="containerContent" id="cr" data-aos="fade-left">
+            <div class="backG">
                 <div class="infoJogos">
 
                 </div>
+                <div class="fotoJogos">
+                    <img src="img/crLOGO.png" alt="Imagem da logo do jogo CLASH ROYALE">
+                </div>
             </div>
         </section>
-        <section class="containerContent" id="bs">
+        <section class="containerContent" id="bs" data-aos="fade-right">
             <div class="backG">
                 <div class="fotoJogos">
                     <img src="img/bsLogo.png" alt="Imagem da logo do jogo BRAWL STARS">
@@ -141,13 +148,13 @@
                 </div>
             </div>
         </section>
-        <section class="containerContent" id="cod">
-            <div class="backG" id="reverse">
-                <div class="fotoJogos">
-                    <img src="img/codLogo.png" alt="Imagem da logo do jogo CALL OF DUTY">
-                </div>
+        <section class="containerContent" id="cod" data-aos="fade-left">
+            <div class="backG">
                 <div class="infoJogos">
 
+                </div>
+                <div class="fotoJogos">
+                    <img src="img/codLogo.png" alt="Imagem da logo do jogo CALL OF DUTY">
                 </div>
             </div>
         </section>
@@ -214,7 +221,10 @@
         </div>
     </footer>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 

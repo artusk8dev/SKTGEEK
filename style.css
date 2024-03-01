@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   * {
         margin: 0;
@@ -129,9 +130,6 @@ html {
         border: 1px solid black;
         margin: 20px;
     }
-    #reverse {
-        flex-direction: row-reverse;
-    }
 
  /* finalizando css main*/
 
@@ -140,7 +138,6 @@ html {
     width: 44px;
     height: 44px;
     background-image: url(img/botao-de-seta-para-cima.png);
-    position: fixed;
     left: 96%;
     margin: 10px 0px 0px 8px;
     opacity: 82%;
