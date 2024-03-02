@@ -137,11 +137,10 @@ html{
 
  .topButton{
     display: flex;
-    width: 44px;
-    height: 44px;
-    background-image: url(img/botao-de-seta-para-cima.png);
+    width: 40px;
+    height: 40px;
     left: 96%;
-    margin: 10px 0px 0px 8px;
+    justify-content: flex-end; 
     opacity: 82%;
     transition: 500ms;
 }   
@@ -152,6 +151,7 @@ html{
 .topButton img{   
     width: 100%;
     height: 100%;
+    position: fixed;
 }
 
 .contato{
@@ -167,8 +167,8 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 40px;
 }
-option
 .containerContact ul{
     list-style: none;
     width: 100%;
@@ -177,9 +177,12 @@ option
     flex-direction: column;
 }
 .containerContact li{
-    padding: 40px 0 0 20px;
+    
+    
     font-size: 35px;
     height: 33%;
+    display: flex;
+    align-items: center;
 }
 .containerEmail{
     width: 40%;

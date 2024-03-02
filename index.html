@@ -153,11 +153,6 @@
                 </div>
             </div>
         </section>
-        <div class="topButton"> <!--botão que sobe para o topo-->
-            <a href="#topo">
-                <img src="img/botao-de-seta-para-cima.png">
-            </a>
-        </div>
     </main> <!--fim do conteúdo dos jogos-->
     <article class="avaliador"> <!-- artigo independente para avaliação do usuario-->
         <div class="containerText">
@@ -166,18 +161,24 @@
                 <p>Qual desses é o seu jogo preferido?</p>
             </div>
             <div class="check-Box"><!-- checkbox jogos-->
-                <input type="radio" name="melhoresJogos" value="coc">
-                <label for="coc">Clash Of Clans</label>
-                <input type="radio" name="melhoresJogos" value="cc">
-                <label for="cc">Candy Crush</label>
-                <input type="radio" name="melhoresJogos" value="pubg">
-                <label for="pubg">PUBG</label>
-                <input type="radio" name="melhoresJogos" value="cr">
-                <label for="cr">Clash Royale</label>
-                <input type="radio" name="melhoresJogos" value="bs">
-                <label for="bs">Brawl Stars</label>
-                <input type="radio" name="melhoresJogos" value="cod">
-                <label for="cod">Call Of Duty</label>
+                <label for="coc">Clash Of Clans    
+                <input type="radio" name="melhoresJogos" id="coc" value="coc">
+             </label>
+             <label for="cc">Candy Crush
+                <input type="radio" name="melhoresJogos" id="cc" value="cc">
+                </label>
+                <label for="pubg"></label>
+                <input type="radio" name="melhoresJogos" id="pubg" value="pubg">
+                PUBG</label>
+                <label for="cr">
+                <input type="radio" name="melhoresJogos" id="cr" value="cr">
+                Clash Royale</label>
+                <label for="bs">Brawl Stars   
+                <input type="radio" name="melhoresJogos" id="bs" value="bs">
+                </label>
+                <label for="cod">
+                <input type="radio" name="melhoresJogos" id="cod" value="cod">
+                Call Of Duty</label>
 
             </div>
 
@@ -191,21 +192,26 @@
                 <li><strong>CELULAR:</strong> 11916047336 </li>
             </ul>
         </div>
-        <form class="containerEmail" action="get"> <!-- formulario para enviar mail-->
+        <form class="containerEmail" action="get" autocomplete=""> <!-- formulario para enviar mail-->
            <div class="titleForm"> <!-- titulo do formulario-->
                 <h2>ENVIE UMA MENSAGEM PARA NÓS</h2>
             </div>
             <div class="containerInputs"><!-- container com os inputs do form-->
-                <div class="containerEmail">
+                <div class="containerUsuario">
                     <label for="email">Seu EMAIL: </label>
-                    <input type="email" name="email" id="">
+                    <input type="email" name="email" id="email" autocomplete="email" required>
                 </div>
                 <div class="containerMensage">    <!-- enviar mensagem-->
-                    <input type="text" name="" id="" placeholder="SUA MENSAGEM">
+                    <input type="text" name="" id="inputText" placeholder="SUA MENSAGEM">
                     <input type="button" value="ENVIAR">
                 </div>    
             </div>
         </form>
+        <div class="topButton"> <!--botão que sobe para o topo-->
+            <a href="#topo">
+                <img src="img/botao-de-seta-para-cima.png">
+            </a>
+        </div>
     </section>
 
     <footer class="itensFooter"> <!-- rodapé do site-->
