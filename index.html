@@ -33,6 +33,17 @@
                 </div>
             </div>
             <div class="navInferior"> <!-- nav aonde o usuario vai selecionar qual o conteudo mostrando-->
+
+              <!--data-aos="fade-up"
+     data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"-->
+
+
                 <section class="containerImagens">
                     <ul>
                         <li>
@@ -142,14 +153,19 @@
                 </div>
             </div>
         </section>
+        <div class="topButton"> <!--botão que sobe para o topo-->
+            <a href="#topo">
+                <img src="img/botao-de-seta-para-cima.png">
+            </a>
+        </div>
     </main> <!--fim do conteúdo dos jogos-->
-    <article class="avaliador">
+    <article class="avaliador"> <!-- artigo independente para avaliação do usuario-->
         <div class="containerText">
             <div class="container-tittle">
                 <h1>E você USUÁRIO?</h1>
                 <p>Qual desses é o seu jogo preferido?</p>
             </div>
-            <div class="check-Box">
+            <div class="check-Box"><!-- checkbox jogos-->
                 <input type="radio" name="melhoresJogos" value="coc">
                 <label for="coc">Clash Of Clans</label>
                 <input type="radio" name="melhoresJogos" value="cc">
@@ -167,35 +183,31 @@
 
         </div>
     </article>
-    <section class="contato" id="contato">
-        <div class="containerContact">
+    <section class="contato" id="contato"> <!-- seção contato e formulario-->
+        <div class="containerContact"> <!-- container com informações criador-->
             <ul>
                 <li><strong>EMAIL:</strong> arthurselingin@gmail.com </li>
                 <li><strong>LINKEDIN:</strong> ARTHUR SELINGIN </li>
                 <li><strong>CELULAR:</strong> 11916047336 </li>
             </ul>
         </div>
-        <form class="containerEmail" action="get">
-           <div class="tittleForm"> 
-                <h2>Envie uma mensagem para nós</h2>
+        <form class="containerEmail" action="get"> <!-- formulario para enviar mail-->
+           <div class="titleForm"> <!-- titulo do formulario-->
+                <h2>ENVIE UMA MENSAGEM PARA NÓS</h2>
             </div>
-            <div class="containerInputs">
+            <div class="containerInputs"><!-- container com os inputs do form-->
                 <div class="containerEmail">
                     <label for="email">Seu EMAIL: </label>
                     <input type="email" name="email" id="">
                 </div>
-                <div class="containerMensage">    
+                <div class="containerMensage">    <!-- enviar mensagem-->
                     <input type="text" name="" id="" placeholder="SUA MENSAGEM">
                     <input type="button" value="ENVIAR">
                 </div>    
             </div>
         </form>
-        <div class="topButton"> <!--botão que sobe para o topo-->
-            <a href="#topo" id="bota">
-                <img src="img/botao-de-seta-para-cima.png">
-            </a>
-        </div>
     </section>
+
     <footer class="itensFooter"> <!-- rodapé do site-->
         <div class="redesCriador"> <!-- container para as redes sociais-->
             <div class="git"></div>
@@ -212,7 +224,7 @@
     <script>
       AOS.init();
       AOS.init({
-        duration: 700,
+        duration: 800,
       })
     </script>
     <script src="script.js"></script>
