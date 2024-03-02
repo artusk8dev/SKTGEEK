@@ -58,7 +58,6 @@ html{
 
     .navInferior {
         width: 100%;
-        position:static;
     }
 
     .containerImagens {
@@ -74,7 +73,7 @@ html{
         width: 100px;
         list-style: none;
         border: 1px solid black;
-        height: 560px;
+        height: 580px;
         transition: 800ms;
         flex-grow: 1;
     }
@@ -89,7 +88,7 @@ html{
     }
 
     .imgNav {
-        height: 560px;
+        height: 580px;
         object-fit: cover;
         width: 100%;
         object-position: center;
@@ -137,13 +136,14 @@ html{
  /* finalizando css main*/
 
  .topButton{
+    display: flex;
+    width: 440px;
+    height: 90px;
+    background-image: url(img/botao-de-seta-para-cima.png);
     position: fixed;
-    left: 96%;
-    bottom: 4px;
-    width: 40px;
-    height: 40px;
     margin: 10px 0px 0px 8px;
     opacity: 82%;
+    left: 95%;
     transition: 500ms;
 }   
 
@@ -155,10 +155,6 @@ html{
     height: 100%;
 }
 
-.avaliador{
-    width: 100%;
-    height: 400px;
-}
 .contato{
     background-color: #f0f1f4;
     width: 100%;
@@ -178,12 +174,10 @@ html{
     width: 100%;
     height: 350px;
     display: flex;
-    margin-left: 30px;
     flex-direction: column;
 }
 .containerContact li{
-    display: flex;
-    align-items: center;
+    padding: 40px 0 0 20px;
     font-size: 35px;
     height: 33%;
 }
@@ -208,7 +202,6 @@ html{
 }
 
 .itensFooter{
-    position: relative;
     background-color: #0d2a64;
     width: 100%;
     height: 160px;
