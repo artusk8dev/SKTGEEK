@@ -1,210 +1,296 @@
-html{
+html {
     overflow-x: hidden;
     scroll-behavior: smooth;
-  }
+}
 
-  * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-
-    /* styles da navbar*/
-
-    nav {
-        width: 100%;
-    }
-
-    .navSuperior {
-        background-color: #0d2a64;
-        width: 100%;
-        height: 120px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .imgLogo {
-        margin-top: 5px;
-        height: 120px;
-        cursor: pointer;
-    }
-
-    .contentNav {
-        height: 60px;
-        width: 700px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-right: 25px;
-        background-color: #0356fd09;
-        border-radius: 20px;
-    }
-
-    .contentNav a {
-        justify-content: space-between;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-decoration: none;
-        cursor: pointer;
-        color: rgba(237, 234, 234, 0.904);
-        font-size: 30px;
-
-    }
-
-    .contentNav a:hover {
-        color: rgb(255, 255, 255);
-    }
-
-    .navInferior {
-        width: 100%;
-    }
-
-    .containerImagens {
-        width: 100%;
-    }
-
-    .containerImagens ul{
-        display: flex;
-        width: 100%;
-    }
-
-    .containerImagens li{
-        width: 100px;
-        list-style: none;
-        border: 1px solid black;
-        height: 552px;
-        transition: 800ms;
-        flex-grow: 1;
-    }
-
-    .containerImagens a{
-        height: 100%;
-    }
-
-    .containerImagens li:hover {
-        width: 100%;
-        transition: 1400ms;
-    }
-
-    .imgNav {
-        height: 550px;
-        object-fit: cover;
-        width: 100%;
-        object-position: center;
-        
-    }
- /* fim do style da navbar*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 
 
- /* começando css da main*/
+/* styles da navbar*/
 
-    .containerContent{
-        width: 100%;
-        height: 400px;
-        border-bottom: none;
-        background-color: #f0f1f4;
-    }
+nav {
+    width: 100%;
+}
 
-    .backG{
-        height: 400px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 65px;
-       }
-        
-    .fotoJogos{
-        width: 320px;
-        height: 320px;
-    }
-    .fotoJogos img{
-        width: 100%;
-        height: 100%;
-        border: 1px solid black;
-        border-radius: 10px;
-    }
+.navSuperior {
+    background-color: #0d2a64;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .infoJogos{
-        width: 1200px;
-        height: 320px;
-        border: 1px solid black;
-        margin: 20px;
-    }
+.imgLogo {
+    margin-top: 5px;
+    height: 120px;
+    cursor: pointer;
+}
 
- /* finalizando css main*/
+.contentNav {
+    height: 60px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25px;
+    background-color: #0356fd09;
+    border-radius: 20px;
+}
 
- .topButton{
+.contentNav a {
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(237, 234, 234, 0.904);
+    font-size: 30px;
+
+}
+
+.contentNav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navInferior {
+    width: 100%;
+}
+
+.containerImagens {
+    width: 100%;
+}
+
+.containerImagens ul {
+    display: flex;
+    width: 100%;
+}
+
+.containerImagens li {
+    width: 100px;
+    list-style: none;
+    border: 1px solid black;
+    height: 552px;
+    transition: 800ms;
+    flex-grow: 1;
+}
+
+.containerImagens a {
+    height: 100%;
+}
+
+.containerImagens li:hover {
+    width: 100%;
+    transition: 1400ms;
+}
+
+.imgNav {
+    height: 550px;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+
+}
+
+/* fim do style da navbar*/
+
+
+/* começando css da main*/
+
+.containerContent {
+    width: 100%;
+    height: 400px;
+    border-bottom: none;
+    background-color: #f0f1f4;
+}
+
+.backG {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px;
+}
+
+.fotoJogos {
+    width: 320px;
+    height: 320px;
+}
+
+.fotoJogos img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.infoJogos {
+    width: 1200px;
+    height: 320px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+/* finalizando css main*/
+
+.topButton {
     display: flex;
     width: 40px;
     height: 40px;
     left: 96%;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     opacity: 82%;
     transition: 500ms;
-}   
+}
 
-.topButton:hover{
+.topButton:hover {
     opacity: 100%;
 }
-.topButton img{   
+
+.topButton img {
     width: 100%;
     height: 100%;
     position: fixed;
 }
 
-.contato{
+.contato {
     background-color: #f0f1f4;
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: space-between;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif
 }
-.containerContact{
+
+.containerContact {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 40px;
 }
-.containerContact ul{
+
+.containerContact ul {
     list-style: none;
     width: 100%;
     height: 350px;
     display: flex;
     flex-direction: column;
 }
-.containerContact li{
-    
-    
+
+.containerContact strong {
+    padding-right: 10px;
+}
+
+.containerContact li {
     font-size: 35px;
     height: 33%;
     display: flex;
     align-items: center;
 }
-.containerEmail{
-    width: 40%;
-}
 
-.titleForm{
-    width: 100%;
+.formEmail {
+    width: 50%;
     display: flex;
     justify-content: center;
-    margin: 30px;
-}
-.titleForm h2{
-    font-size: 35px ;
-}
-
-.containerInputs{
-    border: 1px solid black;
-    height: 250px;
-    width: 500px;
+    border: 1px solid rgba(181, 180, 180, 0.204);
+    background-color: #ede9e92c;
+    border-radius: 10px;
+    margin: 30px 0;
 }
 
-.itensFooter{
+.titleForm {
+    width: 100%;
+    margin: 15px;
+}
+
+.titleForm h2 {
+    font-size: 40px;
+}
+
+.containerInputs {
+    height: 280px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.containerUsuario {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10PX;
+    margin-left: 20px;
+}
+
+.containerInputs label {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+}
+
+.containerInputs p {
+    width: 150px;
+    display: flex;
+    height: 45px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.containerUsuario input {
+    margin-left: 10px;
+    padding-left: 8px;
+    width: 300px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.containerMensage {
+    height: 60%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerText {
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+textarea {
+    padding: 25px 0 0 10px;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 70px;
+}
+
+.containerButton input {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(4, 255, 0);
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.containerButton input:hover {
+    background-color: rgba(9, 83, 1, 0.905);
+
+    color: white;
+}
+
+.itensFooter {
     background-color: #0d2a64;
     width: 100%;
     height: 160px;
@@ -212,20 +298,20 @@ html{
     align-items: center;
 }
 
-.footerImg{
+.footerImg {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
 
-.footerImg img{
+.footerImg img {
     width: 200px;
-    height: 150PX;  
+    height: 150PX;
 }
 
-.redesCriador{
+.redesCriador {
     position: absolute;
     width: 200px;
     height: 160px;
