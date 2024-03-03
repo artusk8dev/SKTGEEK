@@ -73,10 +73,10 @@ nav {
 .containerImagens li {
     width: 100px;
     list-style: none;
-    border: 1px solid black;
-    height: 552px;
+    height: 553px;
     transition: 800ms;
     flex-grow: 1;
+    filter: grayscale(100);
 }
 
 .containerImagens a {
@@ -86,10 +86,12 @@ nav {
 .containerImagens li:hover {
     width: 100%;
     transition: 1400ms;
+    filter: grayscale(0);
 }
 
 .imgNav {
-    height: 550px;
+    border: 1px solid black;
+    height: 552px;
     object-fit: cover;
     width: 100%;
     object-position: center;
@@ -100,6 +102,26 @@ nav {
 
 
 /* começando css da main*/
+
+.topButton{
+    margin-top: 8px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    opacity: 82%;
+    justify-content: flex-end;
+    transition: 500ms;
+    position: fixed;
+}
+
+.topButton:hover {
+opacity: 100%;
+}
+
+.topButton img { 
+width: 100%;
+height: 100%;
+}
 
 .containerContent {
     width: 100%;
@@ -138,24 +160,9 @@ nav {
 
 /* finalizando css main*/
 
-.topButton {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    left: 96%;
-    justify-content: flex-end;
-    opacity: 82%;
-    transition: 500ms;
-}
-
-.topButton:hover {
-    opacity: 100%;
-}
-
-.topButton img {
+.avaliador{
     width: 100%;
-    height: 100%;
-    position: fixed;
+    height: 400px;
 }
 
 .contato {
