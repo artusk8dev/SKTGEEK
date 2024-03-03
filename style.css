@@ -74,10 +74,12 @@ nav {
     width: 100px;
     list-style: none;
     height: 553px;
-    transition: 800ms;
+    transition: 600ms;
     flex-grow: 1;
-    filter: grayscale(100);
+    filter: grayscale(0.4);
 }
+
+
 
 .containerImagens a {
     height: 100%;
@@ -89,13 +91,13 @@ nav {
     filter: grayscale(0);
 }
 
+
 .imgNav {
     border: 1px solid black;
     height: 552px;
     object-fit: cover;
     width: 100%;
     object-position: center;
-
 }
 
 /* fim do style da navbar*/
@@ -123,6 +125,17 @@ width: 100%;
 height: 100%;
 }
 
+.titleMain{
+    background-color: #f0f1f4;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.titleMain img{ 
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+}
 .containerContent {
     width: 100%;
     height: 400px;
@@ -156,6 +169,14 @@ height: 100%;
     height: 320px;
     border: 1px solid black;
     margin: 20px;
+    display: flex;
+}
+
+.containerDesc{
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+
 }
 
 /* finalizando css main*/
