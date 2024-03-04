@@ -147,6 +147,7 @@ height: 100%;
 .backG {
     height: 400px;
     width: 100%;
+    background-color: #eceef5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,6 +169,8 @@ height: 100%;
 .infoJogos {
     width: 1200px;
     height: 320px;
+    background-color: #252424;
+    border-radius: 10px;
     border: 1px solid black;
     margin: 20px;
     display: flex;
@@ -188,8 +191,13 @@ height: 100%;
     height: 20%;
     align-items: center;
     color: orange;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000ba;
 }
 .textJogo{
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00000039;
     height: 100%;
     width: 100%;
 }
@@ -230,14 +238,15 @@ height: 100%;
     height: 60px;
 }
 .containerVideo{
-    border: 1px solid black;
     width: 40%;
     display: flex;
     justify-content: center;
     height: 100%;
 }
 .containerVideo iframe{
- padding: 2px;
+
+ padding: 10px;
+
 }
 /* finalizando css main*/
 
