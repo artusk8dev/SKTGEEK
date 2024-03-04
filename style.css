@@ -139,7 +139,7 @@ height: 100%;
 }
 .containerContent {
     width: 100%;
-    height: 400px;
+    height: 500px;
     border-bottom: none;
     background-color: #f0f1f4;
 }
@@ -155,8 +155,8 @@ height: 100%;
 }
 
 .fotoJogos {
-    width: 320px;
-    height: 320px;
+    width: 390px;
+    height: 350px;
 }
 
 .fotoJogos img {
@@ -168,7 +168,7 @@ height: 100%;
 
 .infoJogos {
     width: 1200px;
-    height: 320px;
+    height: 400px;
     background-color: #252424;
     border-radius: 10px;
     border: 1px solid black;
@@ -180,7 +180,7 @@ height: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 90%;
+    width: 55%;
     height: 100%;
 }
 .titleJogo{
@@ -188,7 +188,8 @@ height: 100%;
     display: flex;
     justify-content: center;
     font-size: 30px;
-    height: 20%;
+    margin: 10px 0 15px 0;
+    height: 10%;
     align-items: center;
     color: orange;
     -webkit-text-stroke-width: 1px;
@@ -203,8 +204,8 @@ height: 100%;
 }
 .textJogo p{
     font-size: 20px;
-    padding: 10px;
-    height: 60%;
+    padding: 10px 20px 10px 20px;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
