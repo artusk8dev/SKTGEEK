@@ -255,6 +255,31 @@ height: 100%;
     width: 100%;
     height: 400px;
 }
+.avaliadorContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.titleAvaliador{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.titleAvaliador h2{
+    font-size: 100px;
+}
+
+.titleAvaliador p{
+    font-size: 40px;
+}
+
+.checkBox{
+    height: 100%;
+    border: 1px solid black;
+
+}
 
 .contato {
     background-color: #f0f1f4;
