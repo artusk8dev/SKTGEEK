@@ -252,64 +252,6 @@ padding-right: 10px;
 }
 /* finalizando css main*/
 
-.avaliador{
-    background-color: #f0f1f4;
-    width: 100%;
-    height: 500px;
-
-}
-.avaliadorContent{
-    background-color: #f0f1f4;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.titleAvaliador{
-    width: 40%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.titleAvaliador h2{
-    width: 100%;
-    height: 50%;
-    font-size: 100px;
-    display: flex;
-}
-
-.titleAvaliador p{
-    font-size: 45px;
-    width: 100%;
-    height: 50%;
-}
-
-
-.containerCheck{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-right: 40px;
-    
-}   
-
-
-.checkBox {
-    border: 1px solid black;
-    height: 17%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.checkBox label input{
-    align-items: center;
-}
-
-
 .contato {
     background-color: #f0f1f4;
     width: 100%;
