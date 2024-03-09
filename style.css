@@ -246,8 +246,12 @@ nav {
     height: 60px;
 }
 
-.containerVideo {
+
+aside{
     width: 40%;
+}
+.containerVideo {
+    width: 100%;
     display: flex;
     justify-content: center;
     height: 100%;
